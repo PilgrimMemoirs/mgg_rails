@@ -3,6 +3,5 @@ class HikesController < ApplicationController
   end
 
   def show
-
   end
 end

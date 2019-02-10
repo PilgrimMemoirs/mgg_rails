@@ -3,6 +3,6 @@ Rails.application.routes.draw do
 
   root 'hikes#index'
 
-  get '/hikes' to: 'hikes#show'
+  get '/hikes', to: 'hikes#show' 
 
 end
